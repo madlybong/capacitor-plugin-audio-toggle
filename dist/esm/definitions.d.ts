@@ -34,6 +34,6 @@ export interface AudioTogglePlugin {
         wired: boolean;
         bluetooth: boolean;
         selectedDevice: DeviceName;
-    }) => void): Promise<PluginListenerHandle> & PluginListenerHandle;
+    }) => void): Promise<PluginListenerHandle>;
     removeAllListeners(): Promise<void>;
 }

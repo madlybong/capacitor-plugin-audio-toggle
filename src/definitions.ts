@@ -19,6 +19,6 @@ export interface AudioTogglePlugin {
   addListener(
     eventName: 'onChanges',
     listenerFunc: (data: {earpiece: boolean, speakerphone: boolean, wired: boolean, bluetooth: boolean, selectedDevice: DeviceName}) => void,
-  ): Promise<PluginListenerHandle> & PluginListenerHandle;
+  ): Promise<PluginListenerHandle> ;
   removeAllListeners(): Promise<void>;
 }

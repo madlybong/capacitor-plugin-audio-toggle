@@ -160,7 +160,7 @@ openAppSettings() => Promise<void>
 ### addListener('onChanges', ...)
 
 ```typescript
-addListener(eventName: 'onChanges', listenerFunc: (data: { earpiece: boolean; speakerphone: boolean; wired: boolean; bluetooth: boolean; selectedDevice: DeviceName; }) => void) => Promise<PluginListenerHandle> & PluginListenerHandle
+addListener(eventName: 'onChanges', listenerFunc: (data: { earpiece: boolean; speakerphone: boolean; wired: boolean; bluetooth: boolean; selectedDevice: DeviceName; }) => void) => Promise<PluginListenerHandle>
 ```
 
 | Param              | Type                                                                                                                                                                    |
